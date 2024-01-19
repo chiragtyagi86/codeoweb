@@ -171,7 +171,7 @@ button:hover{
 }
 #results h2{
 
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 2rcap;
 }
 #results p{
@@ -190,4 +190,75 @@ button:hover{
     height: 4px;  
     background-color: #2b2b2c;  
     border: none;  
+}
+#loader {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .show{
+    display: flex;
+
+    font-size: 70px;
+}
+
+
+/* 404 page css */
+
+
+.a404{
+    margin: 100PX;
+    font-size: 10rem;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a a{
+    color: #668aff;
+    margin: 20px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 4s;
+  }
+
+
+  /* fotter css */
+  footer{
+    background: #2b2b2c;
+    height: 20vh;
+  }
+  .upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .icons{
+    margin: 20px;
+  }
+  .icons svg{
+    margin: 20px;
+  }
+
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background: #202024;
+}
+.lower p{
+    background: #202024;
+}
+.lower a{
+    color: #668aff;
+    background: #202024;
 }
